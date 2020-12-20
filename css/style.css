@@ -125,7 +125,6 @@ button:focus,
 }
 
 .button__secondary {
-  background-color: var(--primary-color);
   /* overwrites browser defaults */
   /* resets the border */
   border: none;
