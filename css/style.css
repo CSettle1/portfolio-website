@@ -5,7 +5,6 @@ Colors used
 --secondary-color: #e0b354; (yelloworange)
 --dark-grey: #2b2b2b;
 --a-color: #357b70;
---visited-color: #120DB7;
 --active-color: #3340DC;
 --hfgline-color: #da4f39;
 --white-color: #FFFFFF;
@@ -160,7 +159,6 @@ ul {
   list-style: none;
   padding-inline-start: 0px;
 }
-.ul-seconday{
   text-align: center;
 }
 /* index.html profile styles  */
