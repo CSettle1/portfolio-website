@@ -126,7 +126,21 @@ button:focus,
 
 .button__secondary {
   background-color: var(--primary-color);
-  color: var(--seconday-color);
+  /* overwrites browser defaults */
+  /* resets the border */
+  border: none;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* style button */
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  /* width of the border, type, color */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.2s opacity;
 }
 
 /* Page header */
