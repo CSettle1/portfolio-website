@@ -173,6 +173,7 @@ button:focus,
 }
 ul {
   list-style: none;
+  padding-left: 0px;
 }
 .ul-secondary{
   text-align: center;
