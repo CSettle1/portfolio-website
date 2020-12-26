@@ -185,6 +185,7 @@ ul {
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
+  padding-bottom: 20px;
 }
 .profile {
   min-width: 360px;
