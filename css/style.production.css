@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
-* Browsers: last 2 version
+* Browsers: last 4 version
 */
 
 /*
@@ -110,6 +110,7 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 .button {
@@ -128,6 +129,7 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 button {
@@ -146,6 +148,7 @@ button {
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
@@ -175,6 +178,7 @@ button:focus,
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
@@ -344,8 +348,8 @@ ul {
 
 @supports (display: grid) {
   .grid {
-    display: -ms-grid;
     display: grid;
+    display: -ms-grid; /*for ie compat. issue */
     /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
