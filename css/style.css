@@ -260,6 +260,7 @@ ul {
 @supports (display: grid) {
   .grid {
     display: grid;
+    display: -ms-grid; /*for ie compat. issue */
     /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
